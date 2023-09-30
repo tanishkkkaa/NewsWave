@@ -6,10 +6,14 @@
 
 This a project created to learn Api calling and JavaScript concepts like async, await etc. In this project i learn about how we call api using async function and how to use data.
 
-[Try Now !!]()
+[Try Now !!](https://newspress-zeta.vercel.app/)
 
 
 Demo Video -
+
+
+
+https://github.com/onlyVishesh/NewsPress/assets/121187728/450146ec-e169-49a8-b941-ecf8878ae59d
 
 
 
