@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+      <!-- Font Awesome 6.4.0 CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>
+        NewsPress
+      </title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <header>
+      <navbar class="navbar">
+  
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <div id="logo-div">
+              <a href="#">
+                <p class="logo-name">NewsPress</p>
+              </a>
+            </div>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div>
+            <ul class="links right-header-element">
+              <li><a class="HOME">HOME</a></li>
+              <li><a class="ABOUT">ABOUT</a></li>
+            </ul>
+          </div>
+  
+      </navbar>
+    </header>
+  
+    <main class="main"><a id="button"></a>
+      <div class="search">
+        <div class="dropdown">
+          <select class="type">
+            <option class="type-option" default hidden value="IN">India</option>
+          </select>
+        </div>
+        <button><img src="search.png" alt="" style="width: 1.5vw; height: 1.5vw;" class="search-btn"></button>
+      </div>
+    <div class="heading-container">
+      <h4>News Website</h4>
+    </div>
+    <div class="options-container"></div>
+    <div class="container"></div>
+    </main>
+    <!-- API Key -->
+    <script src="api-key.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
